@@ -1,3 +1,3 @@
-import ChangeButton from './change_button';
+import WButton from './winter_button';
 
-export default ChangeButton;
+export default WButton;

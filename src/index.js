@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ChangeButton from './components/change_button';
+import WButton from './components/winter_button';
+
+function clickBtn(e){
+  // console.log(e,"wwwww")
+}
 
 const App = () => {
   return (
     <div>
-      <ChangeButton />
+      <WButton type='primary' size='' disabled={false} block={false} onClick={(e)=>clickBtn(e)}>
+        Primary
+      </WButton>
     </div>
   )
 }
