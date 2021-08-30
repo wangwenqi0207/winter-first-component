@@ -42,7 +42,6 @@ class WButton extends Component{
      }
    }
 
-
     render(){
       const {
       type,

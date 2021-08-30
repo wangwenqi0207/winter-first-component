@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import WButton from './components/winter_button';
+import CardDown from './components/card_download';
 
-function clickBtn(e){
-  // console.log(e,"wwwww")
-}
 
 const App = () => {
   return (
     <div>
-      <WButton type='primary' size='' disabled={false} block={false} onClick={(e)=>clickBtn(e)}>
-        Primary
-      </WButton>
+      <CardDown />
     </div>
   )
 }
